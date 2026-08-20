@@ -55,7 +55,7 @@
         <label>Anesthetic high</label>
         <description>I want to get high on anesthetics.</description>
         <iconPath>UI/WantIcons/Catharsis</iconPath>
-        <reward>400</reward>
+        <reward>600</reward>
         <commonality>0.8</commonality>
         <workerClass>WantsAndQuirks.WantWorker_Thought</workerClass>
         <completedByThought>AnestheticHigh</completedByThought>
@@ -135,7 +135,7 @@
     <WantsAndQuirks.WantDef>
         <defName>WQE_WantTendOthers</defName>
         <label>Tend to people</label>
-        <description>I want to help others by tending to the wounded. Tending to 20 wounds should do it.</description>
+        <description>I want to help others by tending to the wounded. Tending at least 20 wounds should do it.</description>
         <iconPath>UI/WantIcons/Medical</iconPath>
         <reward>2000</reward>
         <commonality>2</commonality>
@@ -190,6 +190,7 @@
         <workerClass>WantsAndQuirks.WantWorker_Record</workerClass>
         <targetRecord>CorpsesBuried</targetRecord>
         <countThreshold>1</countThreshold>
+        <isMentalBreakWant>true</isMentalBreakWant>
     </WantsAndQuirks.WantDef>
     <WantsAndQuirks.WantDef>
         <defName>WQE_WantArtifactsActivated</defName>
@@ -205,7 +206,7 @@
     </WantsAndQuirks.WantDef>
     <WantsAndQuirks.WantDef>
         <defName>WQE_WantPrisonersRecruited</defName>
-        <label>Recruiter</label>
+        <label>Recruit someone</label>
         <description>I want to be the one to recruit a prisoner.</description>
         <iconPath>UI/WantIcons/Meet</iconPath>
         <reward>2000</reward>
@@ -344,7 +345,7 @@
         <defName>WQE_WantCleanRoom</defName>
         <label>Clean Room</label>
         <description>Visit an exceedingly clean room.</description>
-        <iconPath>UI/WantIcons/Medical</iconPath>
+        <iconPath>UI/WantIcons/Bedroom</iconPath>
         <reward>800</reward>
         <commonality>0.2</commonality>
         <minimumTechLevel>Medieval</minimumTechLevel>
@@ -465,7 +466,7 @@
     <WantsAndQuirks.WantDef MayRequire="Ludeon.RimWorld.Biotech">
         <defName>WQE_WantTerminatePregnancy</defName>
         <label>Terminate pregnancy</label>
-        <description>I can't bare this child any longer, I'm sick of being pregnant.</description>
+        <description>I can't bare this child any longer. I'm sick of being pregnant.</description>
         <iconPath>UI/WantIcons/Suicidal</iconPath>
         <reward>3000</reward>
         <commonality>0.6</commonality>
@@ -499,7 +500,7 @@
         <description>I'd like to wear something in my favorite color.</description>
         <iconPath>UI/WantIcons/Outfit</iconPath>
         <reward>800</reward>
-        <commonality>1</commonality>
+        <commonality>0.8</commonality>
         <minimumTechLevel>Medieval</minimumTechLevel>
         <workerClass>WantsAndQuirks.WantWorker_Thought</workerClass>
         <completedByThought>WearingColor_Favorite</completedByThought>
@@ -511,7 +512,7 @@
         <description>I'd like to wear something in my ideology's color.</description>
         <iconPath>UI/WantIcons/Outfit</iconPath>
         <reward>800</reward>
-        <commonality>1</commonality>
+        <commonality>0.8</commonality>
         <minimumTechLevel>Medieval</minimumTechLevel>
         <workerClass>WantsAndQuirks.WantWorker_Thought</workerClass>
         <completedByThought>WearingColor_Ideo</completedByThought>
