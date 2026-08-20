@@ -624,16 +624,13 @@
         <workerClass>WantsAndQuirks.WantWorker_Bionic</workerClass>
         <countThreshold>14</countThreshold>
     </WantsAndQuirks.WantDef>
-    <WantsAndQuirks.WantDef>
+    <WantsAndQuirks.WantDef MayRequire="VanillaExpanded.VFESpacer">
         <defName>WQE_WantAirPurifier</defName>
         <label>Fresh air</label>
         <description>I think fresh air from an air purifier would really help me out.</description>
         <iconPath>UI/WantIcons/Aurora</iconPath>
         <reward>400</reward>
         <commonality>1.4</commonality>
-        <invalidTraits>
-            <li>VanillaExpanded.VFESpacer</li>
-        </invalidTraits>
         <requiredHediffs>
             <li>Asthma</li>
         </requiredHediffs>
@@ -642,16 +639,13 @@
         <completedByThought>VFES_FreshAir</completedByThought>
         <discoveryRequirementThing>VFES_AirPurifier</discoveryRequirementThing>
     </WantsAndQuirks.WantDef>
-    <WantsAndQuirks.WantDef>
+    <WantsAndQuirks.WantDef MayRequire="ReGrowth.BOTR.Core">
         <defName>WQE_WantSkinnyDipping</defName>
         <label>Skinny dipping</label>
         <description>I'd like to go skinny dipping in an open body of water.</description>
         <iconPath>UI/WantIcons/Party</iconPath>
         <reward>400</reward>
         <commonality>1</commonality>
-        <invalidTraits>
-            <li>ReGrowth.BOTR.Core</li>
-        </invalidTraits>
         <minimumTechLevel>Animal</minimumTechLevel>
         <maximumTechLevel>Medieval</maximumTechLevel>
         <workerClass>WantsAndQuirks.WantWorker_ThoughtAny</workerClass>
