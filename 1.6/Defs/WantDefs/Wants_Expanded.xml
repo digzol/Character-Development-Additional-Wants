@@ -246,6 +246,7 @@
         <minimumTechLevel>Spacer</minimumTechLevel>
         <workerClass>WantsAndQuirks.WantWorker_HasHediff</workerClass>
         <targetHediff>AG_GeneRemovalComa</targetHediff>
+        <discoveryRequirementThing>Genepack</discoveryRequirementThing>
     </WantsAndQuirks.WantDef>
     <WantsAndQuirks.WantDef MayRequire="sarg.alphagenes">
         <defName>WQE_WantMeetAngelic</defName>
@@ -256,7 +257,6 @@
         <commonality>0.7</commonality>
         <workerClass>WantsAndQuirks.WantWorker_Thought</workerClass>
         <completedByThought>AG_Awe</completedByThought>
-        <discoveryRequirementThing>Genepack</discoveryRequirementThing>
     </WantsAndQuirks.WantDef>
     <WantsAndQuirks.WantDef MayRequire="sarg.alphagenes">
         <defName>WQE_WantRaidBioLab</defName>
