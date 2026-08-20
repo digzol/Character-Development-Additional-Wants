@@ -466,7 +466,7 @@
         <defName>WQE_WantTerminatePregnancy</defName>
         <label>Terminate pregnancy</label>
         <description>I can't bare this child any longer, I'm sick of being pregnant.</description>
-        <iconPath>UI/WantIcons/Suicide</iconPath>
+        <iconPath>UI/WantIcons/Suicidal</iconPath>
         <reward>3000</reward>
         <commonality>0.6</commonality>
         <requiredHediffs>
