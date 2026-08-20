@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+  <name>Character Development - Additional Wants</name>
+  <modVersion>1.0.0</modVersion>
+  <author>Digzol</author>
+  <packageId>Digzol.CharacterDevelopmentAdditionalWants</packageId>
+  <description>More character wants.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>ferny.characterdevelopment</packageId>
+      <displayName>Character Development</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3770112044</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>ferny.characterdevelopment</li>
+    <li>catachat.inspirationtweaks</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Mlie.PrisonerArena</li>
+    <li>sarg.alphabooks</li>
+    <li>sarg.alphagenes</li>
+    <li>VanillaExpanded.VCEF</li>
+    <li>VanillaExpanded.VEE</li>
+    <li>vat.epoeforked</li>
+    <li>weilbyte.snapout</li>
+    <li>Woolstrand.RealRuins</li>
+  </loadAfter>
+</ModMetaData>
