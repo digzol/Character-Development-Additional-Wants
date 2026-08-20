@@ -106,7 +106,7 @@
     <WantsAndQuirks.WantDef>
         <defName>WQE_WantHeadshots</defName>
         <label>Headshot practice</label>
-        <description>I want to practice geting some heatshots in.</description>
+        <description>I want to practice getting some headshots in.</description>
         <iconPath>UI/WantIcons/Gun</iconPath>
         <reward>2000</reward>
         <commonality>1</commonality>
@@ -119,7 +119,7 @@
     <WantsAndQuirks.WantDef>
         <defName>WQE_WantTimesOnFire</defName>
         <label>Self-immolation</label>
-        <description>I want to feel what's it like to be on fire.</description>
+        <description>I want to feel what it's like to be on fire.</description>
         <iconPath>UI/WantIcons/Aurora</iconPath>
         <reward>2000</reward>
         <commonality>1.2</commonality>
@@ -161,7 +161,7 @@
     <WantsAndQuirks.WantDef>
         <defName>WQE_WantContainersOpened</defName>
         <label>Unboxing</label>
-        <description>I want to feel the thrill of unboxing from at leat a dozen unknown containers.</description>
+        <description>I want to feel the thrill of unboxing from at least a dozen unknown containers.</description>
         <iconPath>UI/WantIcons/MechCluster</iconPath>
         <reward>2000</reward>
         <commonality>1</commonality>
@@ -195,7 +195,7 @@
     <WantsAndQuirks.WantDef>
         <defName>WQE_WantArtifactsActivated</defName>
         <label>Artifact activator</label>
-        <description>I want to activate an archotect artifact and see what happens.</description>
+        <description>I want to activate an archotech artifact and see what happens.</description>
         <iconPath>UI/WantIcons/Aurora</iconPath>
         <reward>2000</reward>
         <commonality>1</commonality>
@@ -297,7 +297,7 @@
     <WantsAndQuirks.WantDef MayRequire="sarg.alphabooks">
         <defName>WQE_WantLearnStainlessSteel</defName>
         <label>Learn stainless steel</label>
-        <description>I would like to know how to make things with stainless steel</description>
+        <description>I would like to know how to make things with stainless steel.</description>
         <iconPath>UI/WantIcons/Skill</iconPath>
         <reward>2000</reward>
         <commonality>1</commonality>
@@ -380,7 +380,7 @@
     <WantsAndQuirks.WantDef MayRequire="Ludeon.RimWorld.Anomaly">
         <defName>WQE_WantCureInhumanized</defName>
         <label>Restore humanization</label>
-        <description>Maybe there's a way to free my mind of the void afterall.</description>
+        <description>Maybe there's a way to free my mind of the void after all.</description>
         <iconPath>UI/WantIcons/Composure</iconPath>
         <reward>1600</reward>
         <commonality>0.2</commonality>
@@ -436,7 +436,7 @@
     <WantsAndQuirks.WantDef MayRequire="vat.epoeforked">
         <defName>WQE_WantOrganicOptimization</defName>
         <label>Organic nanobots</label>
-        <description>I'd like to have an organic optimizer nanobots implanted.</description>
+        <description>I'd like to have organic optimizer nanobots implanted.</description>
         <iconPath>UI/WantIcons/Muscle</iconPath>
         <reward>3000</reward>
         <commonality>2</commonality>
@@ -466,7 +466,7 @@
     <WantsAndQuirks.WantDef MayRequire="Ludeon.RimWorld.Biotech">
         <defName>WQE_WantTerminatePregnancy</defName>
         <label>Terminate pregnancy</label>
-        <description>I can't bare this child any longer. I'm sick of being pregnant.</description>
+        <description>I can't bear this child any longer. I'm sick of being pregnant.</description>
         <iconPath>UI/WantIcons/Suicidal</iconPath>
         <reward>3000</reward>
         <commonality>0.6</commonality>
@@ -521,7 +521,7 @@
     <WantsAndQuirks.WantDef MayRequire="Mlie.PrisonerArena">
         <defName>WQE_WantWinPrisonerArena</defName>
         <label>Arena winner</label>
-        <description>I want the rush of fighting to the death and emerge victorious in a prisoner arena.</description>
+        <description>I want the rush of fighting to the death and emerging victorious in a prisoner arena.</description>
         <iconPath>UI/WantIcons/Murder</iconPath>
         <reward>2000</reward>
         <commonality>1</commonality>
