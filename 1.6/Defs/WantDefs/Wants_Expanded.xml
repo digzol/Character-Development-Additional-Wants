@@ -645,10 +645,10 @@
         <label>Skinny dipping</label>
         <description>I'd like to go skinny dipping in an open body of water.</description>
         <iconPath>UI/WantIcons/Party</iconPath>
-        <reward>400</reward>
+        <reward>600</reward>
         <commonality>1</commonality>
         <minimumTechLevel>Animal</minimumTechLevel>
-        <maximumTechLevel>Medieval</maximumTechLevel>
+        <maximumTechLevel>Industrial</maximumTechLevel>
         <workerClass>WantsAndQuirks.WantWorker_ThoughtAny</workerClass>
         <targetThoughts>
             <li>RG_BathingMarsh</li>
