@@ -222,6 +222,9 @@
         <iconPath>UI/WantIcons/Bond</iconPath>
         <reward>2000</reward>
         <commonality>1</commonality>
+        <invalidTraits>
+            <li MayRequire="VanillaExpanded.VanillaTraitsExpanded">VTE_AnimalHater</li>
+        </invalidTraits>
         <workerClass>WantsAndQuirks.WantWorker_Record</workerClass>
         <targetRecord>AnimalsTamed</targetRecord>
         <countThreshold>1</countThreshold>
