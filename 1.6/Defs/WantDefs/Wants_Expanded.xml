@@ -661,23 +661,4 @@
             <li>RG_WasteBathing</li>
         </targetThoughts>
     </WantsAndQuirks.WantDef>
-    <WantsAndQuirks.WantDef MayRequire="VanillaExpanded.VanillaTraitsExpanded">
-        <defName>WQE_WantRemoveBondedAnimal_AnimalHater</defName>
-        <label>Remove a bonded animal</label>
-        <description>I'm tired of being surrounded by these gross annoying animals. I want less bonded animals around me.</description>
-        <iconPath>UI/WantIcons/Bond</iconPath>
-        <reward>2000</reward>
-        <commonality>1</commonality>
-        <invalidTraits>
-            <li>Psychopath</li>
-        </invalidTraits>
-        <workerClass>WantsAndQuirks.WantWorker_ThoughtAny</workerClass>
-        <targetThoughts>
-            <li>VTE_SoldMyBondedAnimalMoodHater</li>
-            <li>VTE_BondedAnimalBanishedHater</li>
-            <li>VTE_BondedAnimalLostHater</li>
-            <li>VTE_BondedAnimalDiedHater</li>
-        </targetThoughts>
-        <isMentalBreakWant>true</isMentalBreakWant>
-    </WantsAndQuirks.WantDef>
 </Defs>
