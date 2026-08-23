@@ -240,16 +240,16 @@
         <workerClass>WantsAndQuirks.WantWorker_CureHediff</workerClass>
         <targetHediff>Carcinoma</targetHediff>
     </WantsAndQuirks.WantDef>
-    <WantsAndQuirks.WantDef MayRequire="sarg.alphagenes">
-        <defName>WQE_WantGeneTampering</defName>
-        <label>Gene tampering</label>
-        <description>I want to tamper with my genes somehow.</description>
+    <WantsAndQuirks.WantDef>
+        <defName>WQE_WantXenogermination</defName>
+        <label>Xenogermination</label>
+        <description>I want to edit my genes and undergo xenogermination.</description>
         <iconPath>UI/WantIcons/DiscoverXeno</iconPath>
         <reward>1800</reward>
         <commonality>0.4</commonality>
         <minimumTechLevel>Spacer</minimumTechLevel>
         <workerClass>WantsAndQuirks.WantWorker_HasHediff</workerClass>
-        <targetHediff>AG_GeneRemovalComa</targetHediff>
+        <targetHediff>XenogerminationComa</targetHediff>
         <discoveryRequirementThing>Genepack</discoveryRequirementThing>
     </WantsAndQuirks.WantDef>
     <WantsAndQuirks.WantDef MayRequire="sarg.alphagenes">
