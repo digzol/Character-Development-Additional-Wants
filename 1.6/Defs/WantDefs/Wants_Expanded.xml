@@ -661,4 +661,73 @@
             <li>RG_WasteBathing</li>
         </targetThoughts>
     </WantsAndQuirks.WantDef>
+    <WantsAndQuirks.WantDef MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+        <defName>WQE_WantKillMechanoid_Technophobe</defName>
+        <label>Destroy a mechanoid</label>
+        <description>I hate those mechanoids. I really want to go destroy one.</description>
+        <iconPath>UI/WantIcons/HighTechGun</iconPath>
+        <reward>800</reward>
+        <commonality>2</commonality>
+        <requiredTraits>
+            <li MayRequire="VanillaExpanded.VanillaTraitsExpanded">VTE_Technophobe</li>
+        </requiredTraits>
+        <minimumTechLevel>Industrial</minimumTechLevel>
+        <workerClass>WantsAndQuirks.WantWorker_Thought</workerClass>
+        <completedByThought>VTE_MechanoidIsKilled</completedByThought>
+        <invalidNonViolent>true</invalidNonViolent>
+    </WantsAndQuirks.WantDef>
+    <WantsAndQuirks.WantDef MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+        <defName>WQE_WantWatchTelevision_CouchePotato</defName>
+        <label>Watch television</label>
+        <description>I'm bored. I want to go watch teleivision for a bit.</description>
+        <iconPath>UI/WantIcons/DoubleBed</iconPath>
+        <reward>600</reward>
+        <commonality>2</commonality>
+        <requiredTraits>
+            <li MayRequire="VanillaExpanded.VanillaTraitsExpanded">VTE_CouchPotato</li>
+        </requiredTraits>
+        <minimumTechLevel>Industrial</minimumTechLevel>
+        <workerClass>WantsAndQuirks.WantWorker_Thought</workerClass>
+        <completedByThought>VTE_WatchedTelevisor</completedByThought>
+    </WantsAndQuirks.WantDef>
+    <WantsAndQuirks.WantDef MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+        <defName>WQE_WantVisitOcean_ChildOfSea</defName>
+        <label>Call of the sea</label>
+        <description>I'd like to return to the ocean or a deer river again.</description>
+        <iconPath>UI/WantIcons/Discover</iconPath>
+        <reward>1000</reward>
+        <commonality>2</commonality>
+        <requiredTraits>
+            <li MayRequire="VanillaExpanded.VanillaTraitsExpanded">VTE_ChildOfSea</li>
+        </requiredTraits>
+        <workerClass>WantsAndQuirks.WantWorker_Thought</workerClass>
+        <completedByThought>VTE_ChildOfSea</completedByThought>
+    </WantsAndQuirks.WantDef>
+    <WantsAndQuirks.WantDef MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+        <defName>WQE_WantVisitMountain_MountainLover</defName>
+        <label>Return to mountains</label>
+        <description>I'd like to return to the mountains again.</description>
+        <iconPath>UI/WantIcons/Discover</iconPath>
+        <reward>1000</reward>
+        <commonality>2</commonality>
+        <requiredTraits>
+            <li MayRequire="VanillaExpanded.VanillaTraitsExpanded">VTE_ChildOfMountain</li>
+        </requiredTraits>
+        <workerClass>WantsAndQuirks.WantWorker_Thought</workerClass>
+        <completedByThought>VTE_ChildOfMountain</completedByThought>
+    </WantsAndQuirks.WantDef>
+    <WantsAndQuirks.WantDef MayRequire="VanillaExpanded.VanillaTraitsExpanded">
+        <defName>WQE_WantHarvestOrgan_MadSurgeon</defName>
+        <label>Harvest an organ</label>
+        <description>It's about time I harvest another organ.</description>
+        <iconPath>UI/WantIcons/Medical</iconPath>
+        <reward>1000</reward>
+        <commonality>2</commonality>
+        <requiredTraits>
+            <li MayRequire="VanillaExpanded.VanillaTraitsExpanded">VTE_MadSurgeon</li>
+        </requiredTraits>
+        <minimumTechLevel>Neolithic</minimumTechLevel>
+        <workerClass>WantsAndQuirks.WantWorker_Thought</workerClass>
+        <completedByThought>VTE_HarvestedOrgans</completedByThought>
+    </WantsAndQuirks.WantDef>
 </Defs>
