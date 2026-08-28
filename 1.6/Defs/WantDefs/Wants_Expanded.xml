@@ -359,13 +359,13 @@
     <WantsAndQuirks.WantDef>
         <defName>WQE_WantDirtyRoom</defName>
         <label>Garbage Dump</label>
-        <description>I belong in the dump.</description>
+        <description>I belong in the dump. (See -20 cleanliness room)</description>
         <iconPath>UI/WantIcons/Trauma</iconPath>
         <reward>1000</reward>
         <commonality>0.2</commonality>
         <workerClass>WantsAndQuirks.WantWorker_RoomStat</workerClass>
         <roomStat>Cleanliness</roomStat>
-        <roomStatThreshold>-10</roomStatThreshold>
+        <roomStatThreshold>-20</roomStatThreshold>
         <isMentalBreakWant>true</isMentalBreakWant>
     </WantsAndQuirks.WantDef>
     <WantsAndQuirks.WantDef MayRequire="Ludeon.RimWorld.Anomaly">
